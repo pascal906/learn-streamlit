@@ -53,3 +53,41 @@ st.markdown(
 # emoji
 st.markdown("[Emojis](https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/)")
 st.markdown(":smile:")
+
+# topic 1 part2
+st.markdown("### HTML")
+html_code = """
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {boackground-color: powderblue;}
+            h1 {color: blue;}
+            p {color: red;}
+        </style>
+    </head>
+    <body>
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+    </body>
+</html>
+"""
+
+st.markdown(html_code, unsafe_allow_html=True)
+
+# create a divide
+st.markdown("---")
+
+# or use
+st.write("this is another divider")
+st.divider()
+
+# latex
+# https://www.overleaf.com/learn/latex/Mathematical_expressions
+st.markdown("## Latex code")
+st.subheader("Einstein Equation")
+st.latex("E = mc^2")
+st.write("Another equation")
+st.latex("x^2 + y^2 = z^2")
+st.latex("y = \sqrt{2^2+1}")
+st.latex(r"g(x) = \frac{1}{x^2+y^3}")

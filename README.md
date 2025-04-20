@@ -10,3 +10,11 @@ Working with text
 - st.text,
 - st.markdown,
 * Belajar beberapa tag untuk markdown
+
+**20 April 2025** <br>
+Working with text part2
+* Belajar memasukkan elemen HTML sebagai markdown,
+- menggunakan beberapa elemen html pada st.markdown
+- cara pakai divider st.divider, atau st.markdown("---")
+- cara menggunakan latex di streamlit
+- fomatting latex, dan juga raw format string
