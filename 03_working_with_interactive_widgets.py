@@ -14,7 +14,7 @@ if checkbox:
 	st.write("Checkbox is  clicked")
 
 # radio button
-radio = st.radio("Choose an option: ", ["2011", "2011", "All"])
+radio = st.radio("Choose an option: ", ["2011", "2012", "All"])
 st.write("You have selected: ", radio)
 
 # selectbox

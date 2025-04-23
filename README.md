@@ -40,6 +40,16 @@ Interactive widgets
 - slider()
 - select_slider()
 
-**21 April 2025** <br>
-Topics
-* Belajar tentang widgets
+**23 April 2025** <br>
+Working with status and progress indicators
+* Belajar tentang status dan progress indicators
+- st.empty(), <varaibel_name> = st.empty()
+- time.sleep()
+- <variabel_name>.text()
+- st.progress()
+- st.spinner()
+- st.success()
+- st.warning()
+- st.error()
+- st.info()
+- st.snow()
